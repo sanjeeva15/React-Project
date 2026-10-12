@@ -1,0 +1,3 @@
+import React from "react";
+import { Link } from "react-router-dom";
+export default function ServiceCard({ number, icon, title, description, path }) { return <article className="service-card"><div className="service-card-top"><span className="service-icon">{icon}</span><span className="service-number">{number}</span></div><h3>{title}</h3><p>{description}</p><Link className="text-link" to={path}>Explore service ↗</Link></article>; }

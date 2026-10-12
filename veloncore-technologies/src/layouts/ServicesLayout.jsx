@@ -1,0 +1,3 @@
+import React from "react";
+import { NavLink, Outlet } from "react-router-dom";
+export default function ServicesLayout() { return <div className="container services-layout"><div className="section-heading"><span className="eyebrow">WHAT WE DO</span><h1>Technology services built around your goals.</h1><p>Explore our web development, application solutions and user experience design.</p></div><nav className="service-tabs"><NavLink to="/services" end>All services</NavLink><NavLink to="/services/web-development">Web development</NavLink><NavLink to="/services/app-development">App development</NavLink><NavLink to="/services/ui-ux-design">UI/UX design</NavLink></nav><Outlet /></div>; }

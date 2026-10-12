@@ -1,0 +1,4 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import Logo from "./Logo.jsx";
+export default function Footer() { return <footer className="footer"><div className="container footer-grid"><div><Logo /><p>Building thoughtful digital experiences and practical technology solutions for growing businesses.</p></div><div><h4>Explore</h4><Link to="/about">About us</Link><Link to="/services">Our services</Link><Link to="/products">Products</Link><Link to="/insights">Insights</Link></div><div><h4>Contact</h4><Link to="/contact">Contact our team</Link><a href="mailto:hello@veloncore.com">hello@veloncore.com</a></div></div><div className="container footer-bottom">© {new Date().getFullYear()} Veloncore Technologies. All rights reserved.</div></footer>; }
